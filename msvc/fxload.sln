@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual C++ Express 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fxload", "fxload.vcproj", "{1F59FEC2-820F-49A6-8CD9-B588BF002DDC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AB6B770-1925-48D5-ABC2-930F3259C020} = {5AB6B770-1925-48D5-ABC2-930F3259C020}
+		{AE83E1B4-CE06-47EE-B7A3-C3A1D7C2D71E} = {AE83E1B4-CE06-47EE-B7A3-C3A1D7C2D71E}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "getopt", "getopt.vcproj", "{AE83E1B4-CE06-47EE-B7A3-C3A1D7C2D71E}"
 EndProject
