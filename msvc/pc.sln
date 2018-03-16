@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eerd", "eerd.vcproj", "{685EB2D5-8279-4512-B57F-B5FFA068C685}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eewr", "eewr.vcproj", "{7F9B7B2E-B84A-45A0-A6D6-7DD41CB59FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{685EB2D5-8279-4512-B57F-B5FFA068C685}.Debug|Win32.ActiveCfg = Debug|Win32
+		{685EB2D5-8279-4512-B57F-B5FFA068C685}.Debug|Win32.Build.0 = Debug|Win32
+		{685EB2D5-8279-4512-B57F-B5FFA068C685}.Release|Win32.ActiveCfg = Release|Win32
+		{685EB2D5-8279-4512-B57F-B5FFA068C685}.Release|Win32.Build.0 = Release|Win32
+		{7F9B7B2E-B84A-45A0-A6D6-7DD41CB59FCF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F9B7B2E-B84A-45A0-A6D6-7DD41CB59FCF}.Debug|Win32.Build.0 = Debug|Win32
+		{7F9B7B2E-B84A-45A0-A6D6-7DD41CB59FCF}.Release|Win32.ActiveCfg = Release|Win32
+		{7F9B7B2E-B84A-45A0-A6D6-7DD41CB59FCF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
