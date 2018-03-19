@@ -1,8 +1,8 @@
 ## Read and write the eeprom of an FX2 chips
 
-### Compile
+### Compiling
 ```
-- Install min req Visual studio 2008 or Microsoft .NET Framework 3.5(msbuild) with Windows Driver Kit Version 7.1.0(vsbuild)
+- Install min req VS_2008 or Microsoft .NET Framework 3.5(msbuild) with Windows SDK 7.1(vcbuild)
 - go to msvc directory and run:
  - build_fxload.bat for fxload build
  - build_pc.bat for read/write eeprom utility
@@ -17,4 +17,4 @@
   * read 256B from address 0x00 `eerd.exe eeprom.raw 0x00 0x100`
   * write 256B from file `eewr.exe eeprom.raw 0x100`
 
-Over Vend_Ax.hex firmware is possible to read and write 500kB of FPGA.
+Eg. over Vend_Ax.hex firmware is possible to read/write 512kB of Hantek 4032L FPGA.
