@@ -17,4 +17,4 @@
   * read 256B from address 0x00 `eerd.exe eeprom.raw 0x00 0x100`
   * write 256B from file `eewr.exe eeprom.raw 0x100`
 
-Eg. over Vend_Ax.hex firmware is possible to read/write 512kB of Hantek 4032L FPGA.
+**Current version of Vend_Ax.hex firmware could be used for read/write 512kB of Hantek 4032L FPGA over SPI FLASH.**
